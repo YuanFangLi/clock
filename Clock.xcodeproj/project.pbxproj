@@ -13,6 +13,11 @@
 		F68698D51E44CDF60036D2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68698D31E44CDF60036D2D5 /* Main.storyboard */; };
 		F68698D71E44CDF60036D2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68698D61E44CDF60036D2D5 /* Assets.xcassets */; };
 		F68698DA1E44CDF60036D2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68698D81E44CDF60036D2D5 /* LaunchScreen.storyboard */; };
+		F6D3EAC81E49584A00E3D9B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3EAC71E49584A00E3D9B2 /* AppDelegate.swift */; };
+		F6D3EACA1E49584A00E3D9B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3EAC91E49584A00E3D9B2 /* ViewController.swift */; };
+		F6D3EACD1E49584A00E3D9B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D3EACB1E49584A00E3D9B2 /* Main.storyboard */; };
+		F6D3EACF1E49584A00E3D9B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D3EACE1E49584A00E3D9B2 /* Assets.xcassets */; };
+		F6D3EAD21E49584A00E3D9B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D3EAD01E49584A00E3D9B2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +31,24 @@
 		F68698D61E44CDF60036D2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68698D91E44CDF60036D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68698DB1E44CDF60036D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D3EAC51E49584A00E3D9B2 /* ClockSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D3EAC71E49584A00E3D9B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6D3EAC91E49584A00E3D9B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6D3EACC1E49584A00E3D9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6D3EACE1E49584A00E3D9B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6D3EAD11E49584A00E3D9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6D3EAD31E49584A00E3D9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F68698C41E44CDF60036D2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D3EAC21E49584A00E3D9B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F68698C91E44CDF60036D2D5 /* Clock */,
+				F6D3EAC61E49584A00E3D9B2 /* ClockSwift */,
 				F68698C81E44CDF60036D2D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F68698C71E44CDF60036D2D5 /* Clock.app */,
+				F6D3EAC51E49584A00E3D9B2 /* ClockSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +100,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F6D3EAC61E49584A00E3D9B2 /* ClockSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F6D3EAC71E49584A00E3D9B2 /* AppDelegate.swift */,
+				F6D3EAC91E49584A00E3D9B2 /* ViewController.swift */,
+				F6D3EACB1E49584A00E3D9B2 /* Main.storyboard */,
+				F6D3EACE1E49584A00E3D9B2 /* Assets.xcassets */,
+				F6D3EAD01E49584A00E3D9B2 /* LaunchScreen.storyboard */,
+				F6D3EAD31E49584A00E3D9B2 /* Info.plist */,
+			);
+			path = ClockSwift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,18 +133,40 @@
 			productReference = F68698C71E44CDF60036D2D5 /* Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F6D3EAC41E49584A00E3D9B2 /* ClockSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D3EAD61E49584A00E3D9B2 /* Build configuration list for PBXNativeTarget "ClockSwift" */;
+			buildPhases = (
+				F6D3EAC11E49584A00E3D9B2 /* Sources */,
+				F6D3EAC21E49584A00E3D9B2 /* Frameworks */,
+				F6D3EAC31E49584A00E3D9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockSwift;
+			productName = ClockSwift;
+			productReference = F6D3EAC51E49584A00E3D9B2 /* ClockSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F68698BF1E44CDF60036D2D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = stan;
 				TargetAttributes = {
 					F68698C61E44CDF60036D2D5 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZHCVTD2CT5;
+						ProvisioningStyle = Automatic;
+					};
+					F6D3EAC41E49584A00E3D9B2 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				F68698C61E44CDF60036D2D5 /* Clock */,
+				F6D3EAC41E49584A00E3D9B2 /* ClockSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +201,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6D3EAC31E49584A00E3D9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D3EAD21E49584A00E3D9B2 /* LaunchScreen.storyboard in Resources */,
+				F6D3EACF1E49584A00E3D9B2 /* Assets.xcassets in Resources */,
+				F6D3EACD1E49584A00E3D9B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -154,6 +221,15 @@
 				F68698D21E44CDF60036D2D5 /* ViewController.m in Sources */,
 				F68698CF1E44CDF60036D2D5 /* AppDelegate.m in Sources */,
 				F68698CC1E44CDF60036D2D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D3EAC11E49584A00E3D9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D3EACA1E49584A00E3D9B2 /* ViewController.swift in Sources */,
+				F6D3EAC81E49584A00E3D9B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +248,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				F68698D91E44CDF60036D2D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6D3EACB1E49584A00E3D9B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D3EACC1E49584A00E3D9B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6D3EAD01E49584A00E3D9B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D3EAD11E49584A00E3D9B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -293,6 +385,33 @@
 			};
 			name = Release;
 		};
+		F6D3EAD41E49584A00E3D9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byeonline.ClockSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F6D3EAD51E49584A00E3D9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byeonline.ClockSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -310,6 +429,15 @@
 			buildConfigurations = (
 				F68698DF1E44CDF60036D2D5 /* Debug */,
 				F68698E01E44CDF60036D2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D3EAD61E49584A00E3D9B2 /* Build configuration list for PBXNativeTarget "ClockSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D3EAD41E49584A00E3D9B2 /* Debug */,
+				F6D3EAD51E49584A00E3D9B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

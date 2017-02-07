@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ClockSwift
 //
-//  Created by Stan on 2017-02-03.
+//  Created by Stan on 2017-02-07.
 //  Copyright © 2017 stan. All rights reserved.
 //
 
