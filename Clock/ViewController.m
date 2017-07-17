@@ -1,10 +1,3 @@
-//
-//  ViewController.m
-//  Clock
-//
-//  Created by Stan on 2017-02-03.
-//  Copyright © 2017 stan. All rights reserved.
-//
 
 #import "ViewController.h"
 
@@ -20,8 +13,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
     CALayer *dialLayer= [[CALayer alloc] init];
     dialLayer.bounds = CGRectMake(0, 0, 150, 150);
     
@@ -92,7 +83,13 @@
     NSDateComponents *currentTime = [calendar components:NSCalendarUnitSecond|NSCalendarUnitMinute|NSCalendarUnitHour|NSCalendarUnitTimeZone fromDate:currentDate];
     
     
-    CGFloat angle = (M_PI * 2 / 60) * currentTime.second;
+    NSDateFormatter *nsdf2=[[NSDateFormatter alloc] init];
+    [nsdf2 setDateStyle:NSDateFormatterShortStyle];
+    [nsdf2 setDateFormat:@"ssSSSS"];
+    NSString *t2=[nsdf2 stringFromDate:[NSDate date]];
+    long curr=[t2 longLongValue];
+    
+    CGFloat angle = (M_PI * 2 / 60) * curr/10000 ;
     
     self.secondHandView.transform = CGAffineTransformMakeRotation(angle);
     
@@ -101,13 +98,6 @@
     
     CGFloat hourAngle = (M_PI * 2 / 12) * currentTime.hour;
     self.hourHandView.transform = CGAffineTransformMakeRotation(hourAngle);
-    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
